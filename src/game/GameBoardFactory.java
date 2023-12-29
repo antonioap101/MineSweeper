@@ -1,4 +1,8 @@
+package game;
+
+import gui.MinesweeperGUI;
+
 public interface GameBoardFactory {
-    GameBoard createGameBoard(MinesweeperGUI gui, int rows, int columns, int numMines);
+    GameBoard createGameBoard(int rows, int columns, int numMines);
 }
 
